@@ -458,6 +458,18 @@ The following analytics visuals are part of the current system. Placeholder path
 
 ---
 
+## AI Generated Summaries
+
+**Full report folder is here**:
+
+[Daily AI Commentary](reports\ai_generated)
+
+### Preview
+
+> On 2026-03-24, the portfolio...
+
+---
+
 ## Example Learning Portfolio
 
 The investment component is educational and used to support hands-on experimentation in data collection, analysis, and interpretation.
