@@ -1,7 +1,7 @@
 # 📊 DataInsideData™ — Financial Intelligence Lab
 
 <div align="center"> 
-  <img src="assets/images/fin-intelli-lab.png" alt="Financial Intelligence Lab's Logo" width="900">
+  <img src="assets/images/fin-intelli-lab.png" alt="Financial Intelligence Lab's Logo" width="700">
 </div>
 
 ## 🌟 Flagship Project — DataInsideData™ Financial Intelligence Lab
