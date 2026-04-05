@@ -15,7 +15,7 @@ This project is the flagship system of the DataInsideData™ platform — a livi
 
 ---
 
-## Professional Introduction
+## Overview
 
 The **Financial Intelligence Lab** is a flagship applied systems project within **DataInsideData™**.
 
