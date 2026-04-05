@@ -1,10 +1,8 @@
-# 📊 DataInsideData™ — Financial Intelligence Lab
-
 <div align="center"> 
   <img src="assets/images/fin-intelli-lab.png" alt="Financial Intelligence Lab's Logo" width="700">
 </div>
 
-## 🌟 Flagship Project — DataInsideData™ Financial Intelligence Lab
+# 📊 DataInsideData™ — Financial Intelligence Lab (Flagship Project)
 
 This project is the flagship system of the DataInsideData™ platform — a living demonstration of how modern builders combine data engineering, analytics, AI-assisted research, and transparent documentation into a cohesive, real-world intelligence environment. It represents the core philosophy of the brand: build in public, learn through experimentation, and design systems that turn raw data into insight, clarity, and community-ready knowledge.
 
