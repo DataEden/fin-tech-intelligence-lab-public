@@ -422,7 +422,7 @@ A future public-facing AI interface may be provided through a server-side endpoi
 - no direct API exposure in the client
 - bounded prompt templates
 - rate-limited access
-- cheaper models for public interactivity
+- cost effective models for public interactivity
 - stronger models reserved for internal publishing workflows
 
 ---
