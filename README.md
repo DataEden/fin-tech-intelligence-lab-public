@@ -191,7 +191,7 @@ flowchart TD
 Within that broader ecosystem, the Financial Intelligence Lab acts as a dedicated research and investing subsystem.
 
 ```mermaid
-flowchart LR
+flowchart TD
     A[Financial Data Sources<br>Market Prices<br>SEC Filings<br>Macro / News Signals] --> B[Research Ingestion Layer<br>APIs<br>Scrapers<br>Manual Tracking]
     B --> C[Portfolio & Research Store<br>Transactions<br>Watchlists<br>Research Notes]
     C --> D[Signal Engine<br>Moving Averages<br>Momentum<br>Volatility<br>Sector Trends]
