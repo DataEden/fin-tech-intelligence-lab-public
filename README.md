@@ -1,5 +1,5 @@
 <div align="center"> 
-  <img src="assets/images/fin-intelli-lab.png" alt="Financial Intelligence Lab's Logo" width="700">
+  <img src="assets/images/fin-intelli-lab.png" alt="Financial Intelligence Lab's Logo" width="650">
 </div>
 
 # 📊 DataInsideData™ — Financial Intelligence Lab (Flagship Project)
