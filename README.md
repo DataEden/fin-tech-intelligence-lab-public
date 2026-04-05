@@ -372,7 +372,7 @@ This project treats investing as a **data system**, not speculation.
 
 Each step follows a research-oriented loop:
 
-```text
+```bash
 Hypothesis → Data Collection → Analysis → Interpretation → Iteration
 ```
 
