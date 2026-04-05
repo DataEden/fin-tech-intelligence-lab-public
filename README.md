@@ -458,15 +458,34 @@ The following analytics visuals are part of the current system. Placeholder path
 
 ---
 
-## AI Generated Summaries
+## AI Generated Summary
 
 **Full report folder is here**:
 
-[Daily AI Commentary](reports\ai_generated)
+[Daily AI Commentary](reports/ai_generated)
 
-### Preview
+## Preview
 
-> On 2026-03-24, the portfolio...
+```text
+# Financial Intelligence Lab — AI Daily Commentary
+## Date: 2026-03-25
+
+## 1. Daily Summary
+As of **2026-03-25**, the portfolio finished at **$356.93**, up **$6.93** on the day for a **1.98%** gain. This move reflects **market performance only**: there was **no new capital added** and **no capital deployed today**. Total contributed capital remains **$350.00**. Dividend income was **$0.00**.
+
+## 2. Sector Observations
+**Energy** was the clear leader, with **$126.02** in equity and **$6.02** of unrealized gain across **3 holdings**. The sector benefited from the day’s oil-related volatility noted in the data.
+
+**Tech** also contributed positively, with **$41.25** in equity and **$4.70** of unrealized gain across **2 holdings**, suggesting a modest stabilization in the group.
+
+Other positive but smaller contributors included:
+- **Income:** $49.17 equity, $0.83 unrealized gain
+- **Defensive:** $38.93 equity, $1.07 unrealized gain
+- **Speculative EV:** $21.52 equity, $1.52 unrealized gain
+- **Consumer / Other:** $39.38 equity, $0.62 unrealized gain
+
+**Renewables** remained at **$0.00** equity despite **4 tracked names**, so it had no visible impact on portfolio value today.
+```
 
 ---
 
