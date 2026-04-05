@@ -266,7 +266,7 @@ flowchart TD
 The project is not only about analysis. It is also about turning technical work into educational content, research storytelling, audience growth, and future monetization opportunities.
 
 ```mermaid
-flowchart LR
+flowchart TD
     A[Data + Research Insights] --> B[AI-Assisted Article Drafts]
     B --> C[DataInsideData Blog]
     C --> D[Tech Hands Daily<br>Video / Streaming]
