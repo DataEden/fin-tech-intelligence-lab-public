@@ -1,0 +1,142 @@
+# ============================================================
+# FinTechEnv
+# Financial Intelligence Lab — Environment Configuration
+#
+# Purpose:
+# This environment supports data ingestion, analysis, modeling,
+# and visualization for the DataInsideData™ Financial Lab.
+#
+# Covers:
+# - Data processing (Pandas, NumPy)
+# - Statistical analysis (SciPy, Statsmodels)
+# - Machine learning (Scikit-learn, XGBoost)
+# - Financial analytics (QuantStats, Empyrical)
+# - Data ingestion (yfinance, FRED)
+# - AI summary generation (OpenAI)
+# - Visualization (Matplotlib, Plotly, Dash, Streamlit)
+# - Notebook + development workflow
+# ============================================================
+
+name: fin-tech
+
+channels:
+  - conda-forge   # Preferred for up-to-date data science packages
+  - defaults      # Fallback for core packages
+
+dependencies:
+
+  # -------------------------------
+  # Core Language
+  # -------------------------------
+  - python=3.12   # Latest stable Python (ensure compatibility)
+
+  # -------------------------------
+  # Data Processing & Math
+  # -------------------------------
+  - numpy         # Numerical computing foundation
+  - pandas        # DataFrames, CSV handling, time-series work
+  - scipy         # Scientific computing (stats, optimization)
+
+  # -------------------------------
+  # Visualization
+  # -------------------------------
+  - matplotlib    # Core plotting library
+
+  # -------------------------------
+  # Machine Learning
+  # -------------------------------
+  - scikit-learn  # ML models, preprocessing, pipelines
+  - xgboost       # Gradient boosting (advanced modeling)
+  - imbalanced-learn  # Handling class imbalance (future ML use)
+
+  # -------------------------------
+  # Statistical Modeling
+  # -------------------------------
+  - statsmodels   # Econometrics, regression, time-series analysis
+
+  # -------------------------------
+  # Notebook Environment
+  # -------------------------------
+  - jupyter       # Classic notebook interface
+  - jupyterlab    # Modern notebook environment
+  - ipython       # Enhanced interactive shell
+  - ipykernel     # Kernel for running notebooks
+
+  # -------------------------------
+  # HTTP / API Access
+  # -------------------------------
+  - requests      # API calls (fallback/general use)
+
+  # -------------------------------
+  # Database Support
+  # -------------------------------
+  - psycopg2-binary  # PostgreSQL adapter (Supabase / Postgres)
+  - SQLAlchemy       # ORM + SQL abstraction layer
+
+  # -------------------------------
+  # Package Manager (for pip installs below)
+  # -------------------------------
+  - pip
+
+  # ============================================================
+  # PIP PACKAGES (Specialized / Not in Conda)
+  # ============================================================
+  - pip:
+
+      # ---------------------------
+      # Market Data & APIs
+      # ---------------------------
+      - yfinance          # Yahoo Finance data (primary price source)
+      - fredapi           # Federal Reserve economic data
+
+      # ---------------------------
+      # AI Generative content
+      # ---------------------------
+      - openai            # OpenAI API client (for AI features)
+
+      # ---------------------------
+      # Environment / Config
+      # ---------------------------
+      - python-dotenv     # Load API keys from .env securely
+
+      # ---------------------------
+      # Visualization (Interactive)
+      # ---------------------------
+      - plotly            # Interactive charts
+      - dash              # Web dashboards
+      - streamlit         # Rapid data apps
+
+      # ---------------------------
+      # File Handling
+      # ---------------------------
+      - openpyxl          # Excel read/write
+      - xlrd              # Legacy Excel support
+      - tabulate          # Pretty-print tables (CLI/debugging)
+
+      # ---------------------------
+      # Financial Analytics
+      # ---------------------------
+      - empyrical-reloaded  # Financial metrics (returns, Sharpe, etc.)
+      - quantstats          # Portfolio analytics + reports
+
+      # ---------------------------
+      # Development Workflow
+      # ---------------------------
+      - jupytext          # Sync .ipynb ↔ .py (version control friendly)
+      - nbdev             # Turn notebooks into reusable modules
+      - pytest            # Testing framework (future-proofing)
+
+# ============================================================
+# Notes:
+#
+# - pandas_datareader intentionally excluded (compatibility issues w/ Py 3.12)
+# - empyrical replaced with empyrical-reloaded (active + compatible)
+# - Environment designed for BOTH:
+#     → exploration (notebooks)
+#     → production (scripts, dashboards)
+#
+# Future Additions:
+# - airflow / prefect (pipelines)
+# - duckdb (fast analytics DB)
+# - polars (high-performance DataFrame alternative)
+# ============================================================

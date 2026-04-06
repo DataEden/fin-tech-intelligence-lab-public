@@ -17,7 +17,7 @@ This project is the flagship system of the DataInsideData™ platform — a livi
 
 **Fari Lindo • DataInsideData™**
 
-**Role:** Technical Builder — Analytics, Data Engineering, AI Engineering, Systems Design, Documentation, and Platform Architecture
+**Role:** Technical Builder — Analytics, Data Engineering, AI/Prompt Engineering, Systems Design, Documentation, and Platform Architecture
 
 ---
 
@@ -163,7 +163,7 @@ As of **March 2026**, the Financial Intelligence Lab has progressed from concept
 - Normalized asset performance comparisons
 - Daily AI-generated financial commentary
 
-This confirms the system has moved into the phase:
+This confirms the system has moved successfully through the following phases:
 
 ```text
 DATA → PIPELINE → ANALYTICS → VISUALIZATION → AI
@@ -176,14 +176,30 @@ DATA → PIPELINE → ANALYTICS → VISUALIZATION → AI
 The Financial Intelligence Lab is one subsystem inside the larger **DataInsideData™** platform, which is designed as a connected ecosystem spanning data, analytics, AI, publishing, and distribution.
 
 ```mermaid
+%%{init: {
+  "theme": "base",
+  "themeVariables": {
+    "background": "#0b1220",
+    "lineColor": "#3b82f6",
+    "fontSize": "18px",
+    "fontFamily": "Arial",
+    "textColor": "#ffffff",
+    "primaryTextColor": "#ffffff",
+    "secondaryTextColor": "#e5e7eb"
+  }
+}}%%
 flowchart TD
+
+%% GLOBAL NODE STYLE
+  classDef default fill:#111827,stroke:#3b82f6,stroke-width:2px,color:#ffffff;
+
     A[Data Sources<br>SEC EDGAR<br>Market Feeds<br>Portfolio Logs<br>Geopolitical Events] --> B[Data Pipeline Layer<br>Python Ingestion<br>ETL / Cleaning<br>Structured Datasets]
     B --> C[AI / Agent Layer<br>OpenAI Summaries<br>Research Prompts<br>Article Generation]
     B --> D[Analytics Layer<br>Indicators<br>Portfolio Metrics<br>Power BI / Python Analysis]
     C --> E[Publishing Layer<br>Markdown Generation<br>Jekyll Posts<br>Research Pages]
     D --> E
-    E --> F[Distribution Layer<br>Blog<br>Tech Hands Daily<br>Newsletter<br>Social Media]
-    F --> G[Audience / Revenue Layer<br>Builders<br>Learners<br>Subscribers<br>Premium Research]
+    E --> F[Distribution Layer<br>Newsletter<br>Social Media]
+    F --> G[Audience / <br>Builders<br>Learners<br>Subscribers<br>Research]
 ```
 
 **Caption:** This diagram shows how DataInsideData operates as a multi-layer platform that transforms raw data into AI-assisted research, analytics, and educational content.
@@ -195,13 +211,29 @@ flowchart TD
 Within that broader ecosystem, the Financial Intelligence Lab acts as a dedicated research and investing subsystem.
 
 ```mermaid
+%%{init: {
+  "theme": "base",
+  "themeVariables": {
+    "background": "#0b1220",
+    "lineColor": "#3b82f6",
+    "fontSize": "18px",
+    "fontFamily": "Arial",
+    "textColor": "#ffffff",
+    "primaryTextColor": "#ffffff",
+    "secondaryTextColor": "#e5e7eb"
+  }
+}}%%
 flowchart TD
-    A[Financial Data Sources<br>Market Prices<br>SEC Filings<br>Macro / News Signals] --> B[Research Ingestion Layer<br>APIs<br>Scrapers<br>Manual Tracking]
-    B --> C[Portfolio & Research Store<br>Transactions<br>Watchlists<br>Research Notes]
+
+%% GLOBAL NODE STYLE
+  classDef default fill:#111827,stroke:#3b82f6,stroke-width:2px,color:#ffffff;
+
+    A[Financial Data Sources<br>Market Prices<br>SEC Filings<br>Macro / News Signals] --> B[Research<br>Ingestion—Layer<br>APIs<br>Manual Tracking]
+    B --> C[Portfolio & Research<br>—Store<br>Transactions<br>Watchlists<br>Research Notes]
     C --> D[Signal Engine<br>Moving Averages<br>Momentum<br>Volatility<br>Sector Trends]
-    D --> E[AI Commentary Layer<br>Structured Summaries<br>Research Drafts<br>Market Writeups]
+    D --> E[AI Commentary Layer<br>Structured Summaries<br>Research Drafts<br>Market Write-ups]
     D --> F[Analytics Dashboards<br>Power BI<br>Python Charts<br>Performance Views]
-    E --> G[Financial Intelligence Lab<br>Blog Research Pages]
+    E --> G[Financial<br>Intelligence—Lab<br>Blog Research Pages]
     F --> G
 ```
 
@@ -214,12 +246,28 @@ flowchart TD
 At the current implementation level, the lab already follows a concrete working pipeline:
 
 ```mermaid
+%%{init: {
+  "theme": "base",
+  "themeVariables": {
+    "background": "#0b1220",
+    "lineColor": "#3b82f6",
+    "fontSize": "18px",
+    "fontFamily": "Arial",
+    "textColor": "#ffffff",
+    "primaryTextColor": "#ffffff",
+    "secondaryTextColor": "#e5e7eb"
+  }
+}}%%
 flowchart TD
+
+%% GLOBAL NODE STYLE
+  classDef default fill:#111827,stroke:#3b82f6,stroke-width:2px,color:#ffffff;
+
     A[Portfolio Data<br>Robinhood / Manual Logs] --> B[CSV Snapshots + Market Notes]
     B --> C[Data Processing<br>Pandas Pipelines]
-    C --> D[Merged Analytical Dataset]
+    C --> D[Merged—Analytical Dataset]
     D --> E[EDA + Visualizations]
-    E --> F[AI Insight Generator<br>OpenAI]
+    E --> F[OpenAI<br>Insight Generator]
     F --> G[Markdown Reports<br>Blog / Archive Ready]
 ```
 
@@ -230,13 +278,29 @@ flowchart TD
 One of the original strategic platform components is the **AI financial news / research agent**, designed as a reusable modular pipeline for turning public filings into readable research content.
 
 ```mermaid
+%%{init: {
+  "theme": "base",
+  "themeVariables": {
+    "background": "#0b1220",
+    "lineColor": "#3b82f6",
+    "fontSize": "18px",
+    "fontFamily": "Arial",
+    "textColor": "#ffffff",
+    "primaryTextColor": "#ffffff",
+    "secondaryTextColor": "#e5e7eb"
+  }
+}}%%
 flowchart TD
-    A[SEC EDGAR Filings] --> B[Scraper / Extractor<br>scraper.py]
+
+%% GLOBAL NODE STYLE
+  classDef default fill:#111827,stroke:#3b82f6,stroke-width:2px,color:#ffffff;
+
+    A[SEC EDGAR Filings] --> B[Extractor<br>extractor.py]
     B --> C[Text Processing<br>Cleaning<br>Chunking<br>Key Facts]
     C --> D[LLM Summarizer<br>summarizer.py]
     D --> E[Article Generator<br>publisher.py<br>Markdown Output]
-    E --> F[Blog Repository<br>Jekyll Posts / Research Notes]
-    F --> G[DataInsideData Publication]
+    E --> F[Blog Repository /<br>Posts / Research Notes]
+    
 ```
 
 **Caption:** This pipeline shows how public filings can be transformed into readable research content through a modular AI-assisted workflow.
@@ -248,13 +312,29 @@ flowchart TD
 The analytics engineering backbone of the platform is the pipeline that transforms raw inputs into validated, dashboard-ready outputs.
 
 ```mermaid
+%%{init: {
+  "theme": "base",
+  "themeVariables": {
+    "background": "#0b1220",
+    "lineColor": "#3b82f6",
+    "fontSize": "18px",
+    "fontFamily": "Arial",
+    "textColor": "#ffffff",
+    "primaryTextColor": "#ffffff",
+    "secondaryTextColor": "#e5e7eb"
+  }
+}}%%
 flowchart TD
+
+%% GLOBAL NODE STYLE
+  classDef default fill:#111827,stroke:#3b82f6,stroke-width:2px,color:#ffffff;
+
     A[Raw Inputs<br>CSV / API / Filing Text] --> B[Staging Layer<br>Raw Landing Files]
     B --> C[Transformation Layer<br>Cleaning<br>Standardization<br>Feature Engineering]
     C --> D[Validation Layer<br>Schema Checks<br>Null Checks<br>Metric QA]
-    D --> E[Curated Analytics Datasets<br>CSV / Parquet / Database]
+    D --> E[Curated<br>Analytics—Datasets<br>CSV / Parquet / Database]
     E --> F[Analytics Layer<br>Python Analysis<br>Power BI Models]
-    F --> G[Dashboards and Research Outputs]
+    F --> G[Dashboards <br>and Research Outputs]
 ```
 
 **Caption:** This diagram highlights the analytics engineering backbone of the platform, where raw data is standardized, validated, and turned into reporting-ready outputs.
@@ -263,10 +343,26 @@ flowchart TD
 
 ## Publishing and Distribution Flywheel
 
-The project is not only about analysis. It is also about turning technical work into educational content, research storytelling, audience growth, and future monetization opportunities.
+The project is not only about analysis. It is also about turning technical work into educational content, research storytelling, audience growth, and eventual monetization opportunities.
 
 ```mermaid
+%%{init: {
+  "theme": "base",
+  "themeVariables": {
+    "background": "#0b1220",
+    "lineColor": "#3b82f6",
+    "fontSize": "18px",
+    "fontFamily": "Arial",
+    "textColor": "#ffffff",
+    "primaryTextColor": "#ffffff",
+    "secondaryTextColor": "#e5e7eb"
+  }
+}}%%
 flowchart TD
+
+%% GLOBAL NODE STYLE
+  classDef default fill:#111827,stroke:#3b82f6,stroke-width:2px,color:#ffffff;
+
     A[Data + Research Insights] --> B[AI-Assisted Article Drafts]
     B --> C[DataInsideData Blog]
     C --> D[Tech Hands Daily<br>Video / Streaming]
@@ -284,6 +380,7 @@ flowchart TD
 ## Technical Stack Summary
 
 ### Core Analytics
+
 - Python
 - Pandas
 - NumPy
@@ -291,6 +388,7 @@ flowchart TD
 - Matplotlib
 
 ### Data Sources
+
 - Yahoo Finance (`yfinance`)
 - Manual portfolio snapshots
 - Dividend tracking logs
@@ -299,6 +397,7 @@ flowchart TD
 - Planned geopolitical and market event layers
 
 ### AI Layer
+
 - OpenAI API
 - Structured prompt engineering
 - Markdown report generation
@@ -306,6 +405,7 @@ flowchart TD
 - Blog-ready research drafting
 
 ### Platform / Delivery
+
 - Git + GitHub
 - Conda environment
 - Modular notebook pipeline
@@ -335,11 +435,11 @@ FINANCIAL_INTELLIGENCE_LAB/
 │   └── 05_ai_insight_generator.ipynb
 │
 ├── reports/
-│   └── ai_generated/
+│   ├── ai_generated/
+│   └── weekly 
 │
 ├── docs/
 │   ├── architecture/
-│   ├── blog-ready/
 │   └── planning/
 │
 ├── assets/
@@ -497,8 +597,8 @@ The investment component is educational and used to support hands-on experimenta
 
 | Category | Allocation |
 |---|---:|
-| Market Learning Portfolio | $200 |
-| AI Platform Development | $50 |
+| Market Learning Portfolio | $380 |
+| AI Platform Development | $5 |
 
 ### Example Energy Learning Positions
 
@@ -532,12 +632,14 @@ This project is intentionally being developed with a dual lens:
 2. **platform architecture thinking**
 
 ### Planning
+
 - platform vision
 - research scope
 - monetization exploration
 - system component planning
 
 ### Requirements
+
 - AI-generated market summaries
 - data ingestion pipelines
 - portfolio tracking
@@ -545,6 +647,7 @@ This project is intentionally being developed with a dual lens:
 - publishing workflows
 
 ### Architecture
+
 - platform ecosystem diagrams
 - financial intelligence lab architecture
 - AI news agent pipeline
@@ -552,6 +655,7 @@ This project is intentionally being developed with a dual lens:
 - publishing flow and distribution design
 
 ### Development
+
 - AI news agent
 - market analytics pipelines
 - portfolio tracker
@@ -559,6 +663,7 @@ This project is intentionally being developed with a dual lens:
 - dashboards and visualizations
 
 ### Testing
+
 - ingestion test points
 - transformation QA checks
 - data integrity validation
@@ -566,12 +671,14 @@ This project is intentionally being developed with a dual lens:
 - dashboard consistency checks
 
 ### Deployment
+
 - GitHub integration
 - markdown publishing workflow
 - blog publication path
 - future automation hooks
 
 ### Iteration
+
 - new datasets
 - improved models
 - enhanced dashboards
@@ -584,10 +691,10 @@ This project is intentionally being developed with a dual lens:
 
 To keep scope manageable, the platform is being developed in the following order:
 
-1. AI News Agent Pipeline
-2. Financial Intelligence Lab core tracker
-3. Data pipeline and analytics outputs
-4. Blog publishing workflow
+1. Financial Intelligence Lab core tracker
+2. Data pipeline and analytics outputs
+3. Blog publishing workflow
+4. AI News Agent Pipeline
 5. Distribution and premium strategy layer
 
 ---
@@ -602,7 +709,7 @@ To keep scope manageable, the platform is being developed in the following order
 - ✅ Merged analysis dataset generation
 - ✅ Visualization layer
 - ✅ AI insight generation notebook
-- ✅ Markdown-based daily commentary workflow
+- ✅ Markdown-based daily/weekly commentary workflow
 - ✅ Initial architecture planning documents
 
 ### In Progress
@@ -676,22 +783,29 @@ Revenue is a future-layer concern, not the core purpose of the project.
 Potential paths include:
 
 ### Premium Research
+
 Paid access to deeper reports, datasets, and dashboards
 
 ### Builder Education
+
 Courses and tutorials on how to build:
+
 - AI agents
 - analytics pipelines
 - automated research systems
 
 ### Analytics Tools
+
 Access to:
+
 - signal monitoring tools
 - dashboards
 - automation workflows
 
 ### Newsletter / Community
+
 Free and premium tiers for:
+
 - research summaries
 - deeper notes
 - curated datasets
@@ -712,13 +826,17 @@ The initiative embraces an open learning philosophy:
 - share what fails
 - improve the system through iteration
 
-The goal is not prediction theater.
+The goal is not prediction oriented.
 
 The goal is to build analytical thinking, technical discipline, and real systems understanding.
 
 ---
 
 ## About
+
+> *Silent gears awake*  
+> *learning in the midnight glow*  
+> *answers bloom softly.*
 
 Built by **Fari Lindo** under **DataInsideData™**
 
