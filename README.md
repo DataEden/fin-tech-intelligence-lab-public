@@ -175,34 +175,11 @@ DATA → PIPELINE → ANALYTICS → VISUALIZATION → AI
 
 The Financial Intelligence Lab is one subsystem inside the larger **DataInsideData™** platform, which is designed as a connected ecosystem spanning data, analytics, AI, publishing, and distribution.
 
-```mermaid
-%%{init: {
-  "theme": "base",
-  "themeVariables": {
-    "background": "#0b1220",
-    "lineColor": "#3b82f6",
-    "fontSize": "18px",
-    "fontFamily": "Arial",
-    "textColor": "#ffffff",
-    "primaryTextColor": "#ffffff",
-    "secondaryTextColor": "#e5e7eb"
-  }
-}}%%
-flowchart TD
+<div align="center">
+  <img src="assets/diagrams/platform_ecosystem_context.png" alt="Platform Ecosystem Context" width="450">
+</div>
 
-%% GLOBAL NODE STYLE
-  classDef default fill:#111827,stroke:#3b82f6,stroke-width:2px,color:#ffffff;
-
-    A[Data Sources<br>SEC EDGAR<br>Market Feeds<br>Portfolio Logs<br>Geopolitical Events] --> B[Data Pipeline Layer<br>Python Ingestion<br>ETL / Cleaning<br>Structured Datasets]
-    B --> C[AI / Agent Layer<br>OpenAI Summaries<br>Research Prompts<br>Article Generation]
-    B --> D[Analytics Layer<br>Indicators<br>Portfolio Metrics<br>Power BI / Python Analysis]
-    C --> E[Publishing Layer<br>Markdown Generation<br>Jekyll Posts<br>Research Pages]
-    D --> E
-    E --> F[Distribution Layer<br>Newsletter<br>Social Media]
-    F --> G[Audience / <br>Builders<br>Learners<br>Subscribers<br>Research]
-```
-
-**Caption:** This diagram shows how DataInsideData operates as a multi-layer platform that transforms raw data into AI-assisted research, analytics, and educational content.
+*<div align="center">This diagram shows how DataInsideData operates as a multi-layer platform that transforms raw data into AI-assisted research, analytics, and educational content.</div>*
 
 ---
 
@@ -210,34 +187,11 @@ flowchart TD
 
 Within that broader ecosystem, the Financial Intelligence Lab acts as a dedicated research and investing subsystem.
 
-```mermaid
-%%{init: {
-  "theme": "base",
-  "themeVariables": {
-    "background": "#0b1220",
-    "lineColor": "#3b82f6",
-    "fontSize": "18px",
-    "fontFamily": "Arial",
-    "textColor": "#ffffff",
-    "primaryTextColor": "#ffffff",
-    "secondaryTextColor": "#e5e7eb"
-  }
-}}%%
-flowchart TD
+<div align="center">
+  <img src="assets/diagrams/financial_intelligence_lab_architecture.png" alt="Financial Intelligence Lab Architecture" width="450">
+</div>
 
-%% GLOBAL NODE STYLE
-  classDef default fill:#111827,stroke:#3b82f6,stroke-width:2px,color:#ffffff;
-
-    A[Financial Data Sources<br>Market Prices<br>SEC Filings<br>Macro / News Signals] --> B[Research<br>Ingestion—Layer<br>APIs<br>Manual Tracking]
-    B --> C[Portfolio & Research<br>—Store<br>Transactions<br>Watchlists<br>Research Notes]
-    C --> D[Signal Engine<br>Moving Averages<br>Momentum<br>Volatility<br>Sector Trends]
-    D --> E[AI Commentary Layer<br>Structured Summaries<br>Research Drafts<br>Market Write-ups]
-    D --> F[Analytics Dashboards<br>Power BI<br>Python Charts<br>Performance Views]
-    E --> G[Financial<br>Intelligence—Lab<br>Blog Research Pages]
-    F --> G
-```
-
-**Caption:** The Financial Intelligence Lab combines market data, research workflows, and AI-generated commentary to support disciplined learning, portfolio observation, and transparent experimentation.
+*<div align="center">The Financial Intelligence Lab combines market data, research workflows, and AI-generated commentary to support disciplined learning, portfolio observation, and transparent experimentation.</div>*
 
 ---
 
@@ -245,31 +199,11 @@ flowchart TD
 
 At the current implementation level, the lab already follows a concrete working pipeline:
 
-```mermaid
-%%{init: {
-  "theme": "base",
-  "themeVariables": {
-    "background": "#0b1220",
-    "lineColor": "#3b82f6",
-    "fontSize": "18px",
-    "fontFamily": "Arial",
-    "textColor": "#ffffff",
-    "primaryTextColor": "#ffffff",
-    "secondaryTextColor": "#e5e7eb"
-  }
-}}%%
-flowchart TD
+<div align="center">
+  <img src="assets/diagrams/core_project_architecture.png" alt="Core Project Architecture" width="300">
+</div>
 
-%% GLOBAL NODE STYLE
-  classDef default fill:#111827,stroke:#3b82f6,stroke-width:2px,color:#ffffff;
-
-    A[Portfolio Data<br>Robinhood / Manual Logs] --> B[CSV Snapshots + Market Notes]
-    B --> C[Data Processing<br>Pandas Pipelines]
-    C --> D[Merged—Analytical Dataset]
-    D --> E[EDA + Visualizations]
-    E --> F[OpenAI<br>Insight Generator]
-    F --> G[Markdown Reports<br>Blog / Archive Ready]
-```
+*<div align="center">Core project pipeline for the Financial Intelligence Lab, where portfolio tracking, data processing, analytics, and AI-assisted commentary come together to produce blog-ready research artifacts.</div>*
 
 ---
 
@@ -277,33 +211,11 @@ flowchart TD
 
 One of the original strategic platform components is the **AI financial news / research agent**, designed as a reusable modular pipeline for turning public filings into readable research content.
 
-```mermaid
-%%{init: {
-  "theme": "base",
-  "themeVariables": {
-    "background": "#0b1220",
-    "lineColor": "#3b82f6",
-    "fontSize": "18px",
-    "fontFamily": "Arial",
-    "textColor": "#ffffff",
-    "primaryTextColor": "#ffffff",
-    "secondaryTextColor": "#e5e7eb"
-  }
-}}%%
-flowchart TD
+<div align="center">
+  <img src="assets/diagrams/ai_news_agent_pipline.png" alt="AI News Agent Pipeline" width="300">
+</div>
 
-%% GLOBAL NODE STYLE
-  classDef default fill:#111827,stroke:#3b82f6,stroke-width:2px,color:#ffffff;
-
-    A[SEC EDGAR Filings] --> B[Extractor<br>extractor.py]
-    B --> C[Text Processing<br>Cleaning<br>Chunking<br>Key Facts]
-    C --> D[LLM Summarizer<br>summarizer.py]
-    D --> E[Article Generator<br>publisher.py<br>Markdown Output]
-    E --> F[Blog Repository /<br>Posts / Research Notes]
-    
-```
-
-**Caption:** This pipeline shows how public filings can be transformed into readable research content through a modular AI-assisted workflow.
+*<div align="center">This pipeline shows how public filings can be transformed into readable research content through a modular AI-assisted workflow.</div>*
 
 ---
 
@@ -311,33 +223,11 @@ flowchart TD
 
 The analytics engineering backbone of the platform is the pipeline that transforms raw inputs into validated, dashboard-ready outputs.
 
-```mermaid
-%%{init: {
-  "theme": "base",
-  "themeVariables": {
-    "background": "#0b1220",
-    "lineColor": "#3b82f6",
-    "fontSize": "18px",
-    "fontFamily": "Arial",
-    "textColor": "#ffffff",
-    "primaryTextColor": "#ffffff",
-    "secondaryTextColor": "#e5e7eb"
-  }
-}}%%
-flowchart TD
+<div align="center">
+  <img src="assets/diagrams/data_pipline_and_analytics_flow.png" alt="Data Pipeline and Analytics Flow" width="300">
+</div>
 
-%% GLOBAL NODE STYLE
-  classDef default fill:#111827,stroke:#3b82f6,stroke-width:2px,color:#ffffff;
-
-    A[Raw Inputs<br>CSV / API / Filing Text] --> B[Staging Layer<br>Raw Landing Files]
-    B --> C[Transformation Layer<br>Cleaning<br>Standardization<br>Feature Engineering]
-    C --> D[Validation Layer<br>Schema Checks<br>Null Checks<br>Metric QA]
-    D --> E[Curated<br>Analytics—Datasets<br>CSV / Parquet / Database]
-    E --> F[Analytics Layer<br>Python Analysis<br>Power BI Models]
-    F --> G[Dashboards <br>and Research Outputs]
-```
-
-**Caption:** This diagram highlights the analytics engineering backbone of the platform, where raw data is standardized, validated, and turned into reporting-ready outputs.
+*<div align="center">This diagram highlights the analytics engineering backbone of the platform, where raw data is standardized, validated, and turned into reporting-ready outputs.</div>*
 
 ---
 
@@ -345,35 +235,11 @@ flowchart TD
 
 The project is not only about analysis. It is also about turning technical work into educational content, research storytelling, audience growth, and eventual monetization opportunities.
 
-```mermaid
-%%{init: {
-  "theme": "base",
-  "themeVariables": {
-    "background": "#0b1220",
-    "lineColor": "#3b82f6",
-    "fontSize": "18px",
-    "fontFamily": "Arial",
-    "textColor": "#ffffff",
-    "primaryTextColor": "#ffffff",
-    "secondaryTextColor": "#e5e7eb"
-  }
-}}%%
-flowchart TD
+<div align="center">
+  <img src="assets/diagrams/publishing_and_distribution_flywheel.png" alt="Publishing and Distribution Flywheel" width="500">
+</div>
 
-%% GLOBAL NODE STYLE
-  classDef default fill:#111827,stroke:#3b82f6,stroke-width:2px,color:#ffffff;
-
-    A[Data + Research Insights] --> B[AI-Assisted Article Drafts]
-    B --> C[DataInsideData Blog]
-    C --> D[Tech Hands Daily<br>Video / Streaming]
-    C --> E[Newsletter / Social Posts]
-    D --> F[Audience Growth<br>Builders<br>Learners<br>Followers]
-    E --> F
-    F --> G[Revenue Paths<br>Premium Research<br>Education<br>Tools<br>Subscriptions]
-    G --> A
-```
-
-**Caption:** The platform is designed as a flywheel where research and technical builds generate content, content grows an audience, and audience growth supports future monetization.
+*<div align="center">This diagram highlights the analytics engineering backbone of the platform, where raw data is standardized, validated, and turned into reporting-ready outputs.</div>*
 
 ---
 
