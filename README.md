@@ -426,7 +426,7 @@ The following analytics visuals are part of the current system. Placeholder path
 
 ## AI Generated Summary
 
-**Full report folder is here**:
+**Full report folder is located here**:
 
 [Daily AI Commentary](https://github.com/DataEden/fin-tech-intelligence-lab-public/tree/main/reports/ai_generated)
 
