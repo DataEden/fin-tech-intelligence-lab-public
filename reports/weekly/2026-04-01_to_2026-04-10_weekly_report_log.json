@@ -1,0 +1,312 @@
+{
+  "week_start": "2026-04-01",
+  "week_end": "2026-04-10",
+  "model": "gpt-5.4",
+  "payload": {
+    "weekly_metrics": {
+      "week_start": "2026-04-01",
+      "week_end": "2026-04-10",
+      "starting_total_value": 383.15,
+      "ending_total_value": 405.55,
+      "net_change_total_value": 22.4,
+      "starting_capital_contributed": 380.0,
+      "ending_capital_contributed": 426.78,
+      "weekly_capital_added": 40.0,
+      "weekly_capital_deployed": 45.0,
+      "starting_market_gain": 3.15,
+      "ending_market_gain": -21.23,
+      "net_change_market_gain": -24.38,
+      "starting_return_pct": 0.0083,
+      "ending_return_pct": -0.0497,
+      "weekly_dividend_income": 0.0,
+      "weekly_total_return_with_dividends": -21.23,
+      "max_total_value": 414.62,
+      "min_total_value": 376.45,
+      "trading_days_logged": 7,
+      "weekly_value_change_pct": 0.058463
+    },
+    "weekly_sector_summary": [
+      {
+        "sector_bucket": "Energy",
+        "weekly_equity_sum": 996.11,
+        "weekly_unrealized_return_sum": 22.35,
+        "weekly_dividend_sum": 0.0,
+        "asset_count": 3
+      },
+      {
+        "sector_bucket": "Income",
+        "weekly_equity_sum": 350.73,
+        "weekly_unrealized_return_sum": 2.61,
+        "weekly_dividend_sum": 0.0,
+        "asset_count": 1
+      },
+      {
+        "sector_bucket": "Consumer / Other",
+        "weekly_equity_sum": 283.83,
+        "weekly_unrealized_return_sum": 5.89,
+        "weekly_dividend_sum": 0.0,
+        "asset_count": 1
+      },
+      {
+        "sector_bucket": "Defensive",
+        "weekly_equity_sum": 275.34,
+        "weekly_unrealized_return_sum": 4.66,
+        "weekly_dividend_sum": 0.0,
+        "asset_count": 1
+      },
+      {
+        "sector_bucket": "Tech",
+        "weekly_equity_sum": 274.06,
+        "weekly_unrealized_return_sum": 48.89,
+        "weekly_dividend_sum": 0.0,
+        "asset_count": 2
+      },
+      {
+        "sector_bucket": "Renewables",
+        "weekly_equity_sum": 264.42,
+        "weekly_unrealized_return_sum": 19.5,
+        "weekly_dividend_sum": 0.0,
+        "asset_count": 4
+      },
+      {
+        "sector_bucket": "Speculative EV",
+        "weekly_equity_sum": 227.26,
+        "weekly_unrealized_return_sum": 18.200000000000003,
+        "weekly_dividend_sum": 0.0,
+        "asset_count": 1
+      },
+      {
+        "sector_bucket": "Crypto",
+        "weekly_equity_sum": 44.78,
+        "weekly_unrealized_return_sum": 0.42000000000000004,
+        "weekly_dividend_sum": 0.0,
+        "asset_count": 1
+      },
+      {
+        "sector_bucket": "Semiconductors",
+        "weekly_equity_sum": 0.0,
+        "weekly_unrealized_return_sum": 0.0,
+        "weekly_dividend_sum": 0.0,
+        "asset_count": 1
+      }
+    ],
+    "current_sector_snapshot": [
+      {
+        "sector_bucket": "Energy",
+        "latest_sector_equity": 146.73,
+        "latest_sector_unrealized_return": 3.27,
+        "latest_sector_dividend": 0.0,
+        "asset_count": 3
+      },
+      {
+        "sector_bucket": "Income",
+        "latest_sector_equity": 50.23,
+        "latest_sector_unrealized_return": 0.23,
+        "latest_sector_dividend": 0.0,
+        "asset_count": 1
+      },
+      {
+        "sector_bucket": "Consumer / Other",
+        "latest_sector_equity": 41.26,
+        "latest_sector_unrealized_return": 1.26,
+        "latest_sector_dividend": 0.0,
+        "asset_count": 1
+      },
+      {
+        "sector_bucket": "Defensive",
+        "latest_sector_equity": 39.41,
+        "latest_sector_unrealized_return": 0.59,
+        "latest_sector_dividend": 0.0,
+        "asset_count": 1
+      },
+      {
+        "sector_bucket": "Renewables",
+        "latest_sector_equity": 36.7,
+        "latest_sector_unrealized_return": 3.9000000000000004,
+        "latest_sector_dividend": 0.0,
+        "asset_count": 4
+      },
+      {
+        "sector_bucket": "Tech",
+        "latest_sector_equity": 34.65,
+        "latest_sector_unrealized_return": 11.92,
+        "latest_sector_dividend": 0.0,
+        "asset_count": 2
+      },
+      {
+        "sector_bucket": "Speculative EV",
+        "latest_sector_equity": 30.59,
+        "latest_sector_unrealized_return": 4.41,
+        "latest_sector_dividend": 0.0,
+        "asset_count": 1
+      },
+      {
+        "sector_bucket": "Crypto",
+        "latest_sector_equity": 15.09,
+        "latest_sector_unrealized_return": 0.07,
+        "latest_sector_dividend": 0.0,
+        "asset_count": 1
+      },
+      {
+        "sector_bucket": "Semiconductors",
+        "latest_sector_equity": 0.0,
+        "latest_sector_unrealized_return": 0.0,
+        "latest_sector_dividend": 0.0,
+        "asset_count": 1
+      }
+    ],
+    "top_movers": [
+      {
+        "symbol": "NVDA",
+        "first_price": 171.6,
+        "last_price": 188.37,
+        "asset_name": "NVIDIA",
+        "sector_bucket": "Tech",
+        "latest_equity": 6.26,
+        "weekly_price_change": 16.77,
+        "weekly_price_change_pct": 0.0977
+      },
+      {
+        "symbol": "CMG",
+        "first_price": 32.23,
+        "last_price": 34.13,
+        "asset_name": "Chipotle",
+        "sector_bucket": "Consumer / Other",
+        "latest_equity": 41.26,
+        "weekly_price_change": 1.9,
+        "weekly_price_change_pct": 0.059
+      },
+      {
+        "symbol": "NEE",
+        "first_price": 92.23,
+        "last_price": 94.11,
+        "asset_name": "NextEra Energy",
+        "sector_bucket": "Renewables",
+        "latest_equity": 10.3,
+        "weekly_price_change": 1.88,
+        "weekly_price_change_pct": 0.0204
+      },
+      {
+        "symbol": "SOL-USD",
+        "first_price": 82.66,
+        "last_price": 84.17,
+        "asset_name": "Solana",
+        "sector_bucket": "Crypto",
+        "latest_equity": 15.09,
+        "weekly_price_change": 1.51,
+        "weekly_price_change_pct": 0.0183
+      },
+      {
+        "symbol": "SPHD",
+        "first_price": 49.39,
+        "last_price": 50.05,
+        "asset_name": "Invesco S&P 500 High Dividend Low Volatility ETF",
+        "sector_bucket": "Income",
+        "latest_equity": 50.23,
+        "weekly_price_change": 0.66,
+        "weekly_price_change_pct": 0.0134
+      }
+    ],
+    "bottom_movers": [
+      {
+        "symbol": "NOW",
+        "first_price": 102.36,
+        "last_price": 83.19,
+        "asset_name": "ServiceNow",
+        "sector_bucket": "Tech",
+        "latest_equity": 28.39,
+        "weekly_price_change": -19.17,
+        "weekly_price_change_pct": -0.1873
+      },
+      {
+        "symbol": "ENPH",
+        "first_price": 37.33,
+        "last_price": 31.27,
+        "asset_name": "Enphase Energy",
+        "sector_bucket": "Renewables",
+        "latest_equity": 7.75,
+        "weekly_price_change": -6.06,
+        "weekly_price_change_pct": -0.1623
+      },
+      {
+        "symbol": "JKS",
+        "first_price": 25.85,
+        "last_price": 22.94,
+        "asset_name": "Jinko Solar",
+        "sector_bucket": "Renewables",
+        "latest_equity": 8.93,
+        "weekly_price_change": -2.91,
+        "weekly_price_change_pct": -0.1126
+      },
+      {
+        "symbol": "LCID",
+        "first_price": 9.43,
+        "last_price": 8.63,
+        "asset_name": "Lucid Group",
+        "sector_bucket": "Speculative EV",
+        "latest_equity": 30.59,
+        "weekly_price_change": -0.8,
+        "weekly_price_change_pct": -0.0848
+      },
+      {
+        "symbol": "TSM",
+        "first_price": NaN,
+        "last_price": NaN,
+        "asset_name": null,
+        "sector_bucket": "Semiconductors",
+        "latest_equity": NaN,
+        "weekly_price_change": NaN,
+        "weekly_price_change_pct": NaN
+      }
+    ],
+    "daily_ai_notes": [
+      {
+        "date": "2026-04-01",
+        "filename": "2026-04-01_daily_ai_commentary.md",
+        "content": "## 1. Daily Summary\nAs of 2026-04-01, the portfolio value stood at **$383.15**, up **$3.15** on the day for a **0.83%** gain. Importantly, this move was driven by **market performance**, not fresh funding: **capital added today was $0.00**, while **$15.00 of existing capital was deployed**. Cumulative capital contributed remains **$380.00**. Dividend income was **$0.00** today. The portfolio now holds **13 assets**.\n\n## 2. Sector Observations\n**Energy** was the largest and strongest sector, with **$141.32** in equity and **$6.32** in unrealized gains across 3 assets. The notes indicate energy markets remained volatile, with intraday pullbacks creating accumulation opportunities.  \n**Tech** also showed solid unrealized gains at **$5.32**, though the market note says tech remains mixed, suggesting dispersion rather than broad strength.  \nOn the softer side, **Income** posted only **$0.44** in unrealized return, making it the weakest visible sector by performance. **Renewables** were relatively flat in aggregate, with **$0.94** in unrealized gains across 4 assets. Defensive and consumer holdings were modestly positive.\n\n## 3. Portfolio Interpretation\nThe portfolio is increasingly **energy-heavy**: Energy accounts for the largest equity allocation, led by **XLE**, **CVX**, and **XOM**. The notes specifically say **additional capital was deployed into CVX on a dip**, and that cash is now **nearly fully invested**, indicating a more aggressive posture toward the core energy theme.\n"
+      },
+      {
+        "date": "2026-04-02",
+        "filename": "2026-04-02_daily_ai_commentary.md",
+        "content": "## 1. Daily Summary\nAs of 2026-04-02, the portfolio was valued at **$382.12** against **$380.00** in contributed capital, leaving a **market gain of $2.12** and a **0.56% total return**. There was **no new capital added** and **no cash deployed** today, so the change in value came entirely from market movement. Dividend income remained **$0.00**. The portfolio held **13 assets**.\n\n## 2. Sector Observations\nSector performance was uneven, with **Tech** showing the strongest unrealized return at **$5.27**, followed by **Energy** at **$3.23** and **Renewables** at **$2.13**.  \n- **Energy** was the largest sector by equity at **$138.23** across 3 holdings, making it the main structural driver of portfolio behavior.  \n- **Income** and **Defensive** positions remained relatively stable, with modest unrealized gains of **$0.50** and **$0.83**.  \n- **Speculative EV** was small in size and nearly flat, contributing only **$0.23** in unrealized return.\n\nThe notes indicate that **energy prices softened further**, while **growth and renewables were mixed** and **defensive/income positions stayed relatively stable**.\n\n## 3. Portfolio Interpretation\nThe portfolio\u2019s slight daily increase was driven by market performance rather than fresh funding or reallocation. Although the portfolio has a broad mix of 7 sector buckets, it remains **meaningfully concentrated in Energy**, especially through **XLE, CVX, XOM, and other energy-linked exposure**. That concentration makes daily results more sensi"
+      },
+      {
+        "date": "2026-04-06",
+        "filename": "2026-04-06_daily_ai_commentary.md",
+        "content": "## 1. Daily Summary\nAs of **2026-04-06**, the portfolio finished at **$381.19** versus **$386.76** in contributed capital, for a **market loss of $5.57** and a **-1.44%** return. There was **no new capital added today**, **no capital deployed today**, and **no dividends received today**. Cumulative dividend income remains modest at **$0.90**. The account holds **14 assets**, and the day\u2019s decline appears to be driven by **market performance rather than cash flows**.\n\n## 2. Sector Observations\n**Energy** was the strongest sector and also the portfolio\u2019s largest allocation, with **$138.97** in equity and a **$3.97 unrealized gain**. This aligns with the reported **36.5% sector weight**, making Energy the main structural driver of the account.\n\nThe weakest area was **Crypto**, which currently shows **$0.00 equity** in this snapshot. Among invested sleeves, **Tech** also stood out positively with **$40.80** in equity and **$5.15 unrealized gain**, while **Renewables** added **$37.62** in equity and a **$2.70 unrealized gain**. **Income** and **Defensive** positions were close to flat, suggesting limited contribution to either gains or losses on the day.\n\n## 3. Portfolio Interpretation\nThe portfolio remains **nearly fully deployed**, with little visible cash drag. That means day-to-day moves are being shaped mostly by market fluctuations, not by fresh deposits or new positioning.\n\nThe structure is still **tilted toward Energy**, with smaller sleeves in **Tech, Renewables, Defensiv"
+      },
+      {
+        "date": "2026-04-07",
+        "filename": "2026-04-07_daily_ai_commentary.md",
+        "content": "## 1. Daily Summary\nAs of 2026-04-07, the portfolio was valued at **376.45**, against **386.76** in cumulative contributed capital. There was **no new capital added today** and **no capital deployed today**. The day\u2019s change came entirely from **market performance**, which was **-10.31** for a **-2.67%** return.  \nThere were **no dividends received today**; cumulative dividend income remains **0.9**. The portfolio holds **14 assets**.\n\n## 2. Sector Observations\nSector behavior was mixed, but the overall tone was **strong negative**.  \n- **Energy** was the largest sector and the **top sector by value** at **132.93**, representing about **35.4%** of the portfolio. It remained a central driver of portfolio structure rather than a source of relief.  \n- **Tech** showed the strongest reported unrealized return in the sector summary at **4.81**, though it is a smaller allocation than Energy.  \n- **Renewables**, **Speculative EV**, **Income**, and **Defensive** all posted positive unrealized returns, providing some offset to broader weakness.  \n- **Crypto** was the **weakest sector** and showed **no equity value** in this snapshot.\n\n## 3. Portfolio Interpretation\nThe portfolio remains **concentrated in Energy**, with additional exposure spread across Tech, Renewables, Income, Defensive, Consumer / Other, and a speculative EV sleeve. That structure means results are sensitive to sector-level dispersion rather than broad-market movement.  \nToday\u2019s decline appears to reflect **price act"
+      },
+      {
+        "date": "2026-04-08",
+        "filename": "2026-04-08_daily_ai_commentary.md",
+        "content": "## 1. Daily Summary\nOn 2026-04-08, the portfolio ended at **$414.62** across **14 assets**. The account received **$40.00 in new capital** today, of which **$30.00 was deployed**. Separately from that funding activity, **market performance detracted $12.16**, leaving the portfolio with a **-2.85% daily return** versus contributed capital.  \n\nNo dividends were received today. **Cumulative dividend income remains $0.90**.\n\n## 2. Sector Observations\n- **Energy** was the largest sector and the strongest on a portfolio basis, with **$150.06** in equity and **$1.36** in unrealized gains. It also represents the portfolio\u2019s largest weight at about **37.2%**.\n- **Crypto** was the weakest sector by the provided classification, though the position is still small. The new **SOL-USD** sleeve adds higher volatility to the mix.\n- **Tech** showed one of the better unrealized return profiles, supported by **NOW**, while **Renewables** and **Speculative EV** also contributed positive unrealized performance.\n- **Income** and **Defensive** remain smaller stabilizing allocations, with relatively limited movement.\n\n## 3. Portfolio Interpretation\nToday\u2019s activity was driven by a combination of **fresh capital, partial deployment, and negative mark-to-market movement**. The notes indicate **$15 added to XLE on weakness** and a **small $15 starter position in SOL-USD**, with some transferred cash still left undeployed for flexibility.  \n\nThe portfolio remains **sector-concentrated in Energy**, while "
+      },
+      {
+        "date": "2026-04-09",
+        "filename": "2026-04-09_daily_ai_commentary.md",
+        "content": "---\nnoteId: \"cc037dd0396f11f1a7e1bd1db3fd9a71\"\ntags: []\n\n---\n\n# Financial Intelligence Lab \u2014 AI Daily Commentary\n## Date: 2026-04-09\n\n## 1) Daily Summary\nOn 2026-04-09, the portfolio finished at **$409.64**, down **$1.26** on the day for a **-0.31%** market move. There was **no new capital added** and **no capital deployed** today, so the change was driven entirely by market performance. **Dividend income was $0.00 today**, while **cumulative dividend income remains $0.90**. The portfolio held **14 assets**.\n\n## 2) Sector Observations\n**Energy** remained the largest sector, with **$147.87** in equity and about **37.1%** of total portfolio weight. It was also the **top sector** by value, with a modest **$2.13** unrealized gain across the bucket.  \n**Tech** showed the strongest unrealized return at **$9.75**, but that is based on a small two-position sleeve and should not be overread.  \nThe **weakest sector was Crypto**, which was essentially flat on the day with only **$0.15** of unrealized return and remained a small allocation.  \nOther notable buckets were **Renewables** (**$36.81**, **$3.93** unrealized return) and **Speculative EV** (**$31.26**, **$3.74** unrealized return), both contributing positive movement but from relatively small bases.\n\n## 3) Portfolio Interpretation\nThe portfolio is moderately concentrated in **Energy**, with additional exposure spread across **Income, Renewables, Tech, Defensive, Consumer/Other, Speculative EV, and Crypto**. This structure helped "
+      },
+      {
+        "date": "2026-04-10",
+        "filename": "2026-04-10_daily_ai_commentary.md",
+        "content": "---\nnoteId: \"702d7130397111f1a7e1bd1db3fd9a71\"\ntags: []\n\n---\n\n# Financial Intelligence Lab \u2014 AI Daily Commentary\n## Date: 2026-04-10\n\n## 1) Daily Summary\nAs of 2026-04-10, the portfolio value stood at **$405.55** versus **$426.78** in cumulative capital contributed, implying a **market-driven loss of $21.23** for the day and a **-4.97%** return on contributed capital. There was **no new capital added today**, **no capital deployed today**, and **no dividends received today**. Cumulative dividend income remains **$0.90**. The portfolio holds **14 assets**.\n\n## 2) Sector Observations\nSector performance was uneven, with the snapshot marked by a **strong negative market state**.  \n- **Energy** was the largest and strongest sector by equity, with **$146.73** across **3 assets** and a small unrealized gain of **$3.27**. It also represents the portfolio\u2019s largest weight at **37.18%**.  \n- **Renewables** contributed **$36.70** across **4 assets**, showing a modest unrealized gain of **$3.90**.  \n- **Tech** posted the largest unrealized gain in dollar terms among the smaller sleeves, with **$11.92** across **2 assets**, though this remains a relatively small allocation.  \n- **Crypto** was the weakest sector, with **$15.09** in equity and only a slight unrealized gain of **$0.07**.\n\nDefensive and income sleeves were positive but not large enough to offset weakness elsewhere.\n\n## 3) Portfolio Interpretation\nThe day\u2019s change was driven by **market performance, not fresh capital activity*"
+      }
+    ]
+  },
+  "system_prompt": "You are an AI reporting assistant for the DataInsideData Financial Intelligence Lab.\n\nGenerate a concise weekly portfolio report using only the structured data provided.\n\nRules:\n- Do not give financial advice.\n- Do not invent causes not supported by the payload.\n- Distinguish clearly between capital contributed, capital added during the period, capital deployed during the period, and market performance.\n- Highlight concentration, recovery/decline patterns, sector behavior, dividend contribution, and notable movers.\n- Use the daily AI notes as supporting context, but prioritize the structured numeric data if there is any ambiguity.\n- Keep the tone professional, analytical, and readable.\n- Write in markdown.\n\nRequired sections:\n1. Weekly Summary\n2. Portfolio Performance\n3. Sector Review\n4. Top Movers and Laggards\n5. What Changed This Week\n6. What to Watch Next Week\n\nKeep the report under 1000 words.",
+  "user_prompt": "Generate a weekly Financial Intelligence Lab report for the period\n2026-04-01 through 2026-04-10.\n\nStructured data:\n{\n  \"weekly_metrics\": {\n    \"week_start\": \"2026-04-01\",\n    \"week_end\": \"2026-04-10\",\n    \"starting_total_value\": 383.15,\n    \"ending_total_value\": 405.55,\n    \"net_change_total_value\": 22.4,\n    \"starting_capital_contributed\": 380.0,\n    \"ending_capital_contributed\": 426.78,\n    \"weekly_capital_added\": 40.0,\n    \"weekly_capital_deployed\": 45.0,\n    \"starting_market_gain\": 3.15,\n    \"ending_market_gain\": -21.23,\n    \"net_change_market_gain\": -24.38,\n    \"starting_return_pct\": 0.0083,\n    \"ending_return_pct\": -0.0497,\n    \"weekly_dividend_income\": 0.0,\n    \"weekly_total_return_with_dividends\": -21.23,\n    \"max_total_value\": 414.62,\n    \"min_total_value\": 376.45,\n    \"trading_days_logged\": 7,\n    \"weekly_value_change_pct\": 0.058463\n  },\n  \"weekly_sector_summary\": [\n    {\n      \"sector_bucket\": \"Energy\",\n      \"weekly_equity_sum\": 996.11,\n      \"weekly_unrealized_return_sum\": 22.35,\n      \"weekly_dividend_sum\": 0.0,\n      \"asset_count\": 3\n    },\n    {\n      \"sector_bucket\": \"Income\",\n      \"weekly_equity_sum\": 350.73,\n      \"weekly_unrealized_return_sum\": 2.61,\n      \"weekly_dividend_sum\": 0.0,\n      \"asset_count\": 1\n    },\n    {\n      \"sector_bucket\": \"Consumer / Other\",\n      \"weekly_equity_sum\": 283.83,\n      \"weekly_unrealized_return_sum\": 5.89,\n      \"weekly_dividend_sum\": 0.0,\n      \"asset_count\": 1\n    },\n    {\n      \"sector_bucket\": \"Defensive\",\n      \"weekly_equity_sum\": 275.34,\n      \"weekly_unrealized_return_sum\": 4.66,\n      \"weekly_dividend_sum\": 0.0,\n      \"asset_count\": 1\n    },\n    {\n      \"sector_bucket\": \"Tech\",\n      \"weekly_equity_sum\": 274.06,\n      \"weekly_unrealized_return_sum\": 48.89,\n      \"weekly_dividend_sum\": 0.0,\n      \"asset_count\": 2\n    },\n    {\n      \"sector_bucket\": \"Renewables\",\n      \"weekly_equity_sum\": 264.42,\n      \"weekly_unrealized_return_sum\": 19.5,\n      \"weekly_dividend_sum\": 0.0,\n      \"asset_count\": 4\n    },\n    {\n      \"sector_bucket\": \"Speculative EV\",\n      \"weekly_equity_sum\": 227.26,\n      \"weekly_unrealized_return_sum\": 18.200000000000003,\n      \"weekly_dividend_sum\": 0.0,\n      \"asset_count\": 1\n    },\n    {\n      \"sector_bucket\": \"Crypto\",\n      \"weekly_equity_sum\": 44.78,\n      \"weekly_unrealized_return_sum\": 0.42000000000000004,\n      \"weekly_dividend_sum\": 0.0,\n      \"asset_count\": 1\n    },\n    {\n      \"sector_bucket\": \"Semiconductors\",\n      \"weekly_equity_sum\": 0.0,\n      \"weekly_unrealized_return_sum\": 0.0,\n      \"weekly_dividend_sum\": 0.0,\n      \"asset_count\": 1\n    }\n  ],\n  \"current_sector_snapshot\": [\n    {\n      \"sector_bucket\": \"Energy\",\n      \"latest_sector_equity\": 146.73,\n      \"latest_sector_unrealized_return\": 3.27,\n      \"latest_sector_dividend\": 0.0,\n      \"asset_count\": 3\n    },\n    {\n      \"sector_bucket\": \"Income\",\n      \"latest_sector_equity\": 50.23,\n      \"latest_sector_unrealized_return\": 0.23,\n      \"latest_sector_dividend\": 0.0,\n      \"asset_count\": 1\n    },\n    {\n      \"sector_bucket\": \"Consumer / Other\",\n      \"latest_sector_equity\": 41.26,\n      \"latest_sector_unrealized_return\": 1.26,\n      \"latest_sector_dividend\": 0.0,\n      \"asset_count\": 1\n    },\n    {\n      \"sector_bucket\": \"Defensive\",\n      \"latest_sector_equity\": 39.41,\n      \"latest_sector_unrealized_return\": 0.59,\n      \"latest_sector_dividend\": 0.0,\n      \"asset_count\": 1\n    },\n    {\n      \"sector_bucket\": \"Renewables\",\n      \"latest_sector_equity\": 36.7,\n      \"latest_sector_unrealized_return\": 3.9000000000000004,\n      \"latest_sector_dividend\": 0.0,\n      \"asset_count\": 4\n    },\n    {\n      \"sector_bucket\": \"Tech\",\n      \"latest_sector_equity\": 34.65,\n      \"latest_sector_unrealized_return\": 11.92,\n      \"latest_sector_dividend\": 0.0,\n      \"asset_count\": 2\n    },\n    {\n      \"sector_bucket\": \"Speculative EV\",\n      \"latest_sector_equity\": 30.59,\n      \"latest_sector_unrealized_return\": 4.41,\n      \"latest_sector_dividend\": 0.0,\n      \"asset_count\": 1\n    },\n    {\n      \"sector_bucket\": \"Crypto\",\n      \"latest_sector_equity\": 15.09,\n      \"latest_sector_unrealized_return\": 0.07,\n      \"latest_sector_dividend\": 0.0,\n      \"asset_count\": 1\n    },\n    {\n      \"sector_bucket\": \"Semiconductors\",\n      \"latest_sector_equity\": 0.0,\n      \"latest_sector_unrealized_return\": 0.0,\n      \"latest_sector_dividend\": 0.0,\n      \"asset_count\": 1\n    }\n  ],\n  \"top_movers\": [\n    {\n      \"symbol\": \"NVDA\",\n      \"first_price\": 171.6,\n      \"last_price\": 188.37,\n      \"asset_name\": \"NVIDIA\",\n      \"sector_bucket\": \"Tech\",\n      \"latest_equity\": 6.26,\n      \"weekly_price_change\": 16.77,\n      \"weekly_price_change_pct\": 0.0977\n    },\n    {\n      \"symbol\": \"CMG\",\n      \"first_price\": 32.23,\n      \"last_price\": 34.13,\n      \"asset_name\": \"Chipotle\",\n      \"sector_bucket\": \"Consumer / Other\",\n      \"latest_equity\": 41.26,\n      \"weekly_price_change\": 1.9,\n      \"weekly_price_change_pct\": 0.059\n    },\n    {\n      \"symbol\": \"NEE\",\n      \"first_price\": 92.23,\n      \"last_price\": 94.11,\n      \"asset_name\": \"NextEra Energy\",\n      \"sector_bucket\": \"Renewables\",\n      \"latest_equity\": 10.3,\n      \"weekly_price_change\": 1.88,\n      \"weekly_price_change_pct\": 0.0204\n    },\n    {\n      \"symbol\": \"SOL-USD\",\n      \"first_price\": 82.66,\n      \"last_price\": 84.17,\n      \"asset_name\": \"Solana\",\n      \"sector_bucket\": \"Crypto\",\n      \"latest_equity\": 15.09,\n      \"weekly_price_change\": 1.51,\n      \"weekly_price_change_pct\": 0.0183\n    },\n    {\n      \"symbol\": \"SPHD\",\n      \"first_price\": 49.39,\n      \"last_price\": 50.05,\n      \"asset_name\": \"Invesco S&P 500 High Dividend Low Volatility ETF\",\n      \"sector_bucket\": \"Income\",\n      \"latest_equity\": 50.23,\n      \"weekly_price_change\": 0.66,\n      \"weekly_price_change_pct\": 0.0134\n    }\n  ],\n  \"bottom_movers\": [\n    {\n      \"symbol\": \"NOW\",\n      \"first_price\": 102.36,\n      \"last_price\": 83.19,\n      \"asset_name\": \"ServiceNow\",\n      \"sector_bucket\": \"Tech\",\n      \"latest_equity\": 28.39,\n      \"weekly_price_change\": -19.17,\n      \"weekly_price_change_pct\": -0.1873\n    },\n    {\n      \"symbol\": \"ENPH\",\n      \"first_price\": 37.33,\n      \"last_price\": 31.27,\n      \"asset_name\": \"Enphase Energy\",\n      \"sector_bucket\": \"Renewables\",\n      \"latest_equity\": 7.75,\n      \"weekly_price_change\": -6.06,\n      \"weekly_price_change_pct\": -0.1623\n    },\n    {\n      \"symbol\": \"JKS\",\n      \"first_price\": 25.85,\n      \"last_price\": 22.94,\n      \"asset_name\": \"Jinko Solar\",\n      \"sector_bucket\": \"Renewables\",\n      \"latest_equity\": 8.93,\n      \"weekly_price_change\": -2.91,\n      \"weekly_price_change_pct\": -0.1126\n    },\n    {\n      \"symbol\": \"LCID\",\n      \"first_price\": 9.43,\n      \"last_price\": 8.63,\n      \"asset_name\": \"Lucid Group\",\n      \"sector_bucket\": \"Speculative EV\",\n      \"latest_equity\": 30.59,\n      \"weekly_price_change\": -0.8,\n      \"weekly_price_change_pct\": -0.0848\n    },\n    {\n      \"symbol\": \"TSM\",\n      \"first_price\": NaN,\n      \"last_price\": NaN,\n      \"asset_name\": null,\n      \"sector_bucket\": \"Semiconductors\",\n      \"latest_equity\": NaN,\n      \"weekly_price_change\": NaN,\n      \"weekly_price_change_pct\": NaN\n    }\n  ],\n  \"daily_ai_notes\": [\n    {\n      \"date\": \"2026-04-01\",\n      \"filename\": \"2026-04-01_daily_ai_commentary.md\",\n      \"content\": \"## 1. Daily Summary\\nAs of 2026-04-01, the portfolio value stood at **$383.15**, up **$3.15** on the day for a **0.83%** gain. Importantly, this move was driven by **market performance**, not fresh funding: **capital added today was $0.00**, while **$15.00 of existing capital was deployed**. Cumulative capital contributed remains **$380.00**. Dividend income was **$0.00** today. The portfolio now holds **13 assets**.\\n\\n## 2. Sector Observations\\n**Energy** was the largest and strongest sector, with **$141.32** in equity and **$6.32** in unrealized gains across 3 assets. The notes indicate energy markets remained volatile, with intraday pullbacks creating accumulation opportunities.  \\n**Tech** also showed solid unrealized gains at **$5.32**, though the market note says tech remains mixed, suggesting dispersion rather than broad strength.  \\nOn the softer side, **Income** posted only **$0.44** in unrealized return, making it the weakest visible sector by performance. **Renewables** were relatively flat in aggregate, with **$0.94** in unrealized gains across 4 assets. Defensive and consumer holdings were modestly positive.\\n\\n## 3. Portfolio Interpretation\\nThe portfolio is increasingly **energy-heavy**: Energy accounts for the largest equity allocation, led by **XLE**, **CVX**, and **XOM**. The notes specifically say **additional capital was deployed into CVX on a dip**, and that cash is now **nearly fully invested**, indicating a more aggressive posture toward the core energy theme.\\n\"\n    },\n    {\n      \"date\": \"2026-04-02\",\n      \"filename\": \"2026-04-02_daily_ai_commentary.md\",\n      \"content\": \"## 1. Daily Summary\\nAs of 2026-04-02, the portfolio was valued at **$382.12** against **$380.00** in contributed capital, leaving a **market gain of $2.12** and a **0.56% total return**. There was **no new capital added** and **no cash deployed** today, so the change in value came entirely from market movement. Dividend income remained **$0.00**. The portfolio held **13 assets**.\\n\\n## 2. Sector Observations\\nSector performance was uneven, with **Tech** showing the strongest unrealized return at **$5.27**, followed by **Energy** at **$3.23** and **Renewables** at **$2.13**.  \\n- **Energy** was the largest sector by equity at **$138.23** across 3 holdings, making it the main structural driver of portfolio behavior.  \\n- **Income** and **Defensive** positions remained relatively stable, with modest unrealized gains of **$0.50** and **$0.83**.  \\n- **Speculative EV** was small in size and nearly flat, contributing only **$0.23** in unrealized return.\\n\\nThe notes indicate that **energy prices softened further**, while **growth and renewables were mixed** and **defensive/income positions stayed relatively stable**.\\n\\n## 3. Portfolio Interpretation\\nThe portfolio\\u2019s slight daily increase was driven by market performance rather than fresh funding or reallocation. Although the portfolio has a broad mix of 7 sector buckets, it remains **meaningfully concentrated in Energy**, especially through **XLE, CVX, XOM, and other energy-linked exposure**. That concentration makes daily results more sensi\"\n    },\n    {\n      \"date\": \"2026-04-06\",\n      \"filename\": \"2026-04-06_daily_ai_commentary.md\",\n      \"content\": \"## 1. Daily Summary\\nAs of **2026-04-06**, the portfolio finished at **$381.19** versus **$386.76** in contributed capital, for a **market loss of $5.57** and a **-1.44%** return. There was **no new capital added today**, **no capital deployed today**, and **no dividends received today**. Cumulative dividend income remains modest at **$0.90**. The account holds **14 assets**, and the day\\u2019s decline appears to be driven by **market performance rather than cash flows**.\\n\\n## 2. Sector Observations\\n**Energy** was the strongest sector and also the portfolio\\u2019s largest allocation, with **$138.97** in equity and a **$3.97 unrealized gain**. This aligns with the reported **36.5% sector weight**, making Energy the main structural driver of the account.\\n\\nThe weakest area was **Crypto**, which currently shows **$0.00 equity** in this snapshot. Among invested sleeves, **Tech** also stood out positively with **$40.80** in equity and **$5.15 unrealized gain**, while **Renewables** added **$37.62** in equity and a **$2.70 unrealized gain**. **Income** and **Defensive** positions were close to flat, suggesting limited contribution to either gains or losses on the day.\\n\\n## 3. Portfolio Interpretation\\nThe portfolio remains **nearly fully deployed**, with little visible cash drag. That means day-to-day moves are being shaped mostly by market fluctuations, not by fresh deposits or new positioning.\\n\\nThe structure is still **tilted toward Energy**, with smaller sleeves in **Tech, Renewables, Defensiv\"\n    },\n    {\n      \"date\": \"2026-04-07\",\n      \"filename\": \"2026-04-07_daily_ai_commentary.md\",\n      \"content\": \"## 1. Daily Summary\\nAs of 2026-04-07, the portfolio was valued at **376.45**, against **386.76** in cumulative contributed capital. There was **no new capital added today** and **no capital deployed today**. The day\\u2019s change came entirely from **market performance**, which was **-10.31** for a **-2.67%** return.  \\nThere were **no dividends received today**; cumulative dividend income remains **0.9**. The portfolio holds **14 assets**.\\n\\n## 2. Sector Observations\\nSector behavior was mixed, but the overall tone was **strong negative**.  \\n- **Energy** was the largest sector and the **top sector by value** at **132.93**, representing about **35.4%** of the portfolio. It remained a central driver of portfolio structure rather than a source of relief.  \\n- **Tech** showed the strongest reported unrealized return in the sector summary at **4.81**, though it is a smaller allocation than Energy.  \\n- **Renewables**, **Speculative EV**, **Income**, and **Defensive** all posted positive unrealized returns, providing some offset to broader weakness.  \\n- **Crypto** was the **weakest sector** and showed **no equity value** in this snapshot.\\n\\n## 3. Portfolio Interpretation\\nThe portfolio remains **concentrated in Energy**, with additional exposure spread across Tech, Renewables, Income, Defensive, Consumer / Other, and a speculative EV sleeve. That structure means results are sensitive to sector-level dispersion rather than broad-market movement.  \\nToday\\u2019s decline appears to reflect **price act\"\n    },\n    {\n      \"date\": \"2026-04-08\",\n      \"filename\": \"2026-04-08_daily_ai_commentary.md\",\n      \"content\": \"## 1. Daily Summary\\nOn 2026-04-08, the portfolio ended at **$414.62** across **14 assets**. The account received **$40.00 in new capital** today, of which **$30.00 was deployed**. Separately from that funding activity, **market performance detracted $12.16**, leaving the portfolio with a **-2.85% daily return** versus contributed capital.  \\n\\nNo dividends were received today. **Cumulative dividend income remains $0.90**.\\n\\n## 2. Sector Observations\\n- **Energy** was the largest sector and the strongest on a portfolio basis, with **$150.06** in equity and **$1.36** in unrealized gains. It also represents the portfolio\\u2019s largest weight at about **37.2%**.\\n- **Crypto** was the weakest sector by the provided classification, though the position is still small. The new **SOL-USD** sleeve adds higher volatility to the mix.\\n- **Tech** showed one of the better unrealized return profiles, supported by **NOW**, while **Renewables** and **Speculative EV** also contributed positive unrealized performance.\\n- **Income** and **Defensive** remain smaller stabilizing allocations, with relatively limited movement.\\n\\n## 3. Portfolio Interpretation\\nToday\\u2019s activity was driven by a combination of **fresh capital, partial deployment, and negative mark-to-market movement**. The notes indicate **$15 added to XLE on weakness** and a **small $15 starter position in SOL-USD**, with some transferred cash still left undeployed for flexibility.  \\n\\nThe portfolio remains **sector-concentrated in Energy**, while \"\n    },\n    {\n      \"date\": \"2026-04-09\",\n      \"filename\": \"2026-04-09_daily_ai_commentary.md\",\n      \"content\": \"---\\nnoteId: \\\"cc037dd0396f11f1a7e1bd1db3fd9a71\\\"\\ntags: []\\n\\n---\\n\\n# Financial Intelligence Lab \\u2014 AI Daily Commentary\\n## Date: 2026-04-09\\n\\n## 1) Daily Summary\\nOn 2026-04-09, the portfolio finished at **$409.64**, down **$1.26** on the day for a **-0.31%** market move. There was **no new capital added** and **no capital deployed** today, so the change was driven entirely by market performance. **Dividend income was $0.00 today**, while **cumulative dividend income remains $0.90**. The portfolio held **14 assets**.\\n\\n## 2) Sector Observations\\n**Energy** remained the largest sector, with **$147.87** in equity and about **37.1%** of total portfolio weight. It was also the **top sector** by value, with a modest **$2.13** unrealized gain across the bucket.  \\n**Tech** showed the strongest unrealized return at **$9.75**, but that is based on a small two-position sleeve and should not be overread.  \\nThe **weakest sector was Crypto**, which was essentially flat on the day with only **$0.15** of unrealized return and remained a small allocation.  \\nOther notable buckets were **Renewables** (**$36.81**, **$3.93** unrealized return) and **Speculative EV** (**$31.26**, **$3.74** unrealized return), both contributing positive movement but from relatively small bases.\\n\\n## 3) Portfolio Interpretation\\nThe portfolio is moderately concentrated in **Energy**, with additional exposure spread across **Income, Renewables, Tech, Defensive, Consumer/Other, Speculative EV, and Crypto**. This structure helped \"\n    },\n    {\n      \"date\": \"2026-04-10\",\n      \"filename\": \"2026-04-10_daily_ai_commentary.md\",\n      \"content\": \"---\\nnoteId: \\\"702d7130397111f1a7e1bd1db3fd9a71\\\"\\ntags: []\\n\\n---\\n\\n# Financial Intelligence Lab \\u2014 AI Daily Commentary\\n## Date: 2026-04-10\\n\\n## 1) Daily Summary\\nAs of 2026-04-10, the portfolio value stood at **$405.55** versus **$426.78** in cumulative capital contributed, implying a **market-driven loss of $21.23** for the day and a **-4.97%** return on contributed capital. There was **no new capital added today**, **no capital deployed today**, and **no dividends received today**. Cumulative dividend income remains **$0.90**. The portfolio holds **14 assets**.\\n\\n## 2) Sector Observations\\nSector performance was uneven, with the snapshot marked by a **strong negative market state**.  \\n- **Energy** was the largest and strongest sector by equity, with **$146.73** across **3 assets** and a small unrealized gain of **$3.27**. It also represents the portfolio\\u2019s largest weight at **37.18%**.  \\n- **Renewables** contributed **$36.70** across **4 assets**, showing a modest unrealized gain of **$3.90**.  \\n- **Tech** posted the largest unrealized gain in dollar terms among the smaller sleeves, with **$11.92** across **2 assets**, though this remains a relatively small allocation.  \\n- **Crypto** was the weakest sector, with **$15.09** in equity and only a slight unrealized gain of **$0.07**.\\n\\nDefensive and income sleeves were positive but not large enough to offset weakness elsewhere.\\n\\n## 3) Portfolio Interpretation\\nThe day\\u2019s change was driven by **market performance, not fresh capital activity*\"\n    }\n  ]\n}\n\nRequirements:\n- Explain what happened across the selected period.\n- Separate capital contributed, capital added during the period, capital deployed during the period, and market performance.\n- Identify the strongest and weakest sectors using both weekly and latest sector information.\n- Mention dividend contribution if relevant.\n- Use daily AI notes as supporting narrative context, but do not let them override the structured numbers.\n- Highlight top movers and laggards.\n- Keep conclusions proportional to the size of the sample.",
+  "response_text": "# Weekly Financial Intelligence Lab Report\n**Period:** 2026-04-01 through 2026-04-10\n\n## 1. Weekly Summary\n\nPortfolio value rose from **$383.15** to **$405.55**, a **$22.40 increase** (**+5.85%**). However, that increase was driven by capital activity rather than market appreciation.\n\nCapital and performance were distinct this week:\n- **Starting capital contributed:** **$380.00**\n- **Ending capital contributed:** **$426.78**\n- **Capital added during the period:** **$40.00**\n- **Capital deployed during the period:** **$45.00**\n- **Starting market gain:** **+$3.15**\n- **Ending market gain:** **-$21.23**\n- **Net change in market gain:** **-$24.38**\n\nSo while account value increased, the portfolio\u2019s **market performance deteriorated materially**, moving from a small unrealized gain to a notable unrealized loss. Daily notes support that pattern: the portfolio hit a low of **$376.45** on 2026-04-07, recovered to a period high of **$414.62** on 2026-04-08 after fresh funding and deployment, then closed weaker on 2026-04-10.\n\n## 2. Portfolio Performance\n\nThe portfolio\u2019s return on contributed capital shifted from **+0.83%** at the start of the period to **-4.97%** at the end. Total return including dividends was **-$21.23**, as **weekly dividend income was $0.00**.\n\nKey interpretation:\n- **Portfolio value change:** **+$22.40**\n- **Net new funding effect:** positive, as capital contributed rose from **$380.00** to **$426.78**\n- **Market effect:** negative, with unrealized performance worsening by **$24.38**\n\nThis was therefore a week where **cash inflows and deployment supported portfolio size**, but **market movement reduced investment performance**.\n\nThe portfolio remained **concentrated in Energy**, a theme consistently reinforced in the daily notes. By the latest snapshot, Energy represented **$146.73**, roughly the largest sleeve, and daily commentary repeatedly identified it as the dominant allocation. The period also showed a clear **decline-and-partial-recovery pattern**:\n- Early period: modestly positive performance\n- Mid-period: drawdown into 2026-04-07 low\n- 2026-04-08: rebound in total value aided by **$40 added** and **$30 deployed that day**\n- End-period: value remained above the start, but market losses persisted\n\n## 3. Sector Review\n\n### Latest sector positioning\nUsing the current snapshot, the largest sectors are:\n1. **Energy:** **$146.73** across 3 assets  \n2. **Income:** **$50.23**\n3. **Consumer / Other:** **$41.26**\n4. **Defensive:** **$39.41**\n5. **Renewables:** **$36.70**\n6. **Tech:** **$34.65**\n\n### Strongest and weakest sectors\nUsing both the weekly summary and latest snapshot:\n\n- **Strongest weekly sector by unrealized return sum:** **Tech** at **$48.89**, despite being a relatively small current allocation (**$34.65**). This indicates strong contribution efficiency from a smaller sleeve.\n- **Largest and structurally most important sector:** **Energy**, with the highest weekly equity sum (**$996.11**) and largest latest equity (**$146.73**). It remained the main driver of portfolio behavior throughout the period.\n- **Renewables** showed meaningful activity, with **$19.50** in weekly unrealized return sum and **$36.70** in latest equity, but individual holdings were mixed.\n- **Weakest latest sector:** **Crypto**, with only **$15.09** in equity and **$0.07** latest unrealized return.\n- **Semiconductors** had **no active equity exposure** in the latest snapshot and no weekly contribution.\n\nOverall, the sector picture was **top-heavy in Energy**, with **Tech showing the best weekly performance profile**, and **Crypto/empty Semiconductor exposure contributing little**. Daily notes also suggest Energy remained the portfolio\u2019s anchor, while smaller sleeves such as Tech and Renewables created more dispersed outcomes.\n\n## 4. Top Movers and Laggards\n\n### Top Movers\n- **NVDA (NVIDIA):** **+9.77%**\n- **CMG (Chipotle):** **+5.90%**\n- **NEE (NextEra Energy):** **+2.04%**\n- **SOL-USD (Solana):** **+1.83%**\n- **SPHD:** **+1.34%**\n\n**NVDA** was the standout positive mover by a wide margin. **CMG** also added strong relative performance. **NEE** helped offset some weakness within Renewables, while **SPHD** reflected the steadier behavior of the income sleeve.\n\n### Laggards\n- **NOW (ServiceNow):** **-18.73%**\n- **ENPH (Enphase Energy):** **-16.23%**\n- **JKS (Jinko Solar):** **-11.26%**\n- **LCID (Lucid):** **-8.48%**\n\nThe largest drag was **NOW**, despite Tech being the strongest sector in aggregate over the week. That suggests gains elsewhere in Tech, especially NVDA, more than offset this decline. In Renewables, **ENPH** and **JKS** were notable weak spots, highlighting mixed internal sector behavior. **LCID** weakened within the speculative EV sleeve.\n\n## 5. What Changed This Week\n\n- **New capital was added:** **$40.00**\n- **Capital deployed:** **$45.00**\n- The portfolio moved from a **small unrealized gain** to a **larger unrealized loss**\n- **Energy concentration remained intact**\n- **Crypto exposure appeared as a small sleeve**, consistent with the daily note referencing a starter position in SOL-USD\n- The account moved between **$376.45** and **$414.62**, showing meaningful short-term volatility over just **7 logged trading days**\n\nNo dividend income contributed during the selected period according to the structured weekly data.\n\n## 6. What to Watch Next Week\n\n- Whether **Energy** continues to stabilize the portfolio or amplifies concentration risk\n- Whether **Tech strength** remains broad enough to offset sharp single-name weakness like **NOW**\n- Whether **Renewables** can recover from weakness in **ENPH** and **JKS**\n- Whether the portfolio\u2019s **market loss narrows** now that additional capital has largely been deployed\n- Whether smaller sleeves such as **Crypto** and **Speculative EV** remain immaterial or begin to influence volatility more noticeably\n\nOverall, this was a week of **higher account value but weaker investment performance**, with capital flows masking a deterioration in mark-to-market results.",
+  "status": "completed",
+  "incomplete_details": null,
+  "usage": {
+    "input_tokens": 5486,
+    "output_tokens": 1473,
+    "total_tokens": 6959
+  },
+  "payload_size_chars": 16887,
+  "generated_at": "2026-04-23T08:16:37.511415"
+}

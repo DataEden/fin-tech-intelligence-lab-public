@@ -51,7 +51,7 @@ It explores how modern builders can combine:
 - data science
 - automation
 - artificial intelligence
-- analytics engineering
+- data and analytics engineering
 - portfolio observation
 - structured publishing workflows
 
